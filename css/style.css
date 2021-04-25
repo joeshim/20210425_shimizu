@@ -1,0 +1,90 @@
+.site {
+  min-width: 1000px;
+  max-width: 1500px;
+}
+
+.header {
+  text-align: right;
+  margin-top: 30px;
+  margin-bottom: 120px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  left: 30px;
+  font-size: 20pt;
+  color: navy;
+  bottom: 0;
+}
+
+.nav {
+  display: inline-block;
+  bottom: 0;
+}
+
+.menu {
+  display: inline-block;
+  margin-right: 25px;
+  font-weight: 600;
+  color: navy;
+}
+
+.a {
+  text-decoration: none;
+  color: navy;
+}
+
+.content {
+  position: relative;
+}
+
+.img {
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+  position: relative;
+  z-index: 10;
+}
+
+.fix {
+  position: absolute;
+  width: 75%;
+  top: 50%;
+  left: 0;
+}
+
+.text {
+  font-size: 54pt;
+  font-weight: normal;
+}
+
+.colorbox {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto 20px 0;
+  background: navy;
+}
+
+
+
+/*
+  <div class="site">
+    <header class="header">
+      <h1 class="title">COACHTECH</h1>
+      <nav class="nav">
+        <ul>
+          <li class="home"><a href="">ホーム</a></li>
+          <li class="business"><a href="">事業内容</a></li>
+          <li class="recruit"><a href="">採用情報</a></li>
+          <li class="contact"><a href="">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content">
+      <img class="img" src="img/firstview.jpeg" alt="firstview">
+      <h2 class="text">毎日を笑顔に</h2>
+      <div class="colorbox"></div>
+    </div>
+  </div>
+*/
