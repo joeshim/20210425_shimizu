@@ -4,87 +4,422 @@
 }
 
 .header {
-  text-align: right;
-  margin-top: 30px;
-  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 5px 20px 30px 30px;
+}
+
+.header-title {
+  width: 150px;
+}
+
+.header-title-logo {
+  width: 150px;
+}
+
+.header-nav {
+  display: block;
+}
+
+.header-nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav-item {
+  list-style: none;
+  margin-right: 30px;
+  color: #555555;
+}
+
+.first-view {
   position: relative;
 }
 
-.title {
-  position: absolute;
-  left: 30px;
-  font-size: 20pt;
-  color: navy;
-  bottom: 0;
-}
-
-.nav {
-  display: inline-block;
-  bottom: 0;
-}
-
-.menu {
-  display: inline-block;
-  margin-right: 25px;
-  font-weight: 600;
-  color: navy;
-}
-
-.a {
-  text-decoration: none;
-  color: navy;
-}
-
-.content {
-  position: relative;
-}
-
-.img {
+.first-view-img {
   margin: 0 0 0 auto;
   display: block;
-  width: 50%;
-  position: relative;
-  z-index: 10;
+  width: 60%;
 }
 
-.fix {
+.first-view-content {
   position: absolute;
-  width: 75%;
-  top: 50%;
-  left: 0;
+  top: 15%;
+  left: 20%;
 }
 
-.text {
-  font-size: 54pt;
-  font-weight: normal;
+.first-view-text {
+  font-family: 'Indie Flower', cursive;
+  font-size: 64px;
+  color: #A20054;
+  line-height: 1.5;
 }
 
-.colorbox {
+.first-view-word {
+  color: #188FA4;
+}
+
+.first-view-copy {
+  font-size: 18pt;
+  font-weight: 800;
+  color: #A20054;
+  margin-top: 50px;
+}
+
+.first-view-tagline {
+  line-height: 1.5;
+  margin-top: 10px;
+  color: #555555;
+}
+
+.news-area {
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.menu-item {
+  font-family: 'Indie Flower', cursive;
+  color: #A20054;
+  margin-bottom: 15px;
+}
+
+.menu-title {
+  font-size: 18pt;
+  color: #555555;
+  margin-bottom: 30px;
+}
+
+.news-list {
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 18px;
+}
+
+.news-date {
+  color: #555555;
+}
+
+.news-icon {
+  width: 80px;
+  background: #A20054;
+  text-align: center;
+  color: #fff;
+  padding: 3px;
+  border-radius: 15px;
+  margin-left: 30px;
+}
+
+.news-index {
+  color: #555555;
+  margin-left: 30px;
+}
+
+.about-area {
   width: 100%;
-  height: 200px;
-  margin: 0 auto 20px 0;
-  background: navy;
+  background: #F2F2F2;
+  padding: 40px 0;
+  text-align: center;
 }
 
+.about-content {
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.about-content-copy {
+  width: 360px;
+  text-align: start;
+}
 
-/*
-  <div class="site">
-    <header class="header">
-      <h1 class="title">COACHTECH</h1>
-      <nav class="nav">
-        <ul>
-          <li class="home"><a href="">ホーム</a></li>
-          <li class="business"><a href="">事業内容</a></li>
-          <li class="recruit"><a href="">採用情報</a></li>
-          <li class="contact"><a href="">お問い合わせ</a></li>
-        </ul>
-      </nav>
-    </header>
-    <div class="content">
-      <img class="img" src="img/firstview.jpeg" alt="firstview">
-      <h2 class="text">毎日を笑顔に</h2>
-      <div class="colorbox"></div>
-    </div>
-  </div>
-*/
+.about-content-copy-text {
+  line-height: 1.5;
+  margin: 5px 0;
+  color: #555555;
+}
+
+.aboout-content-copy-insert {
+  margin: 20px 0;
+}
+
+.about-content-img {
+  width: 360px;
+}
+
+.service-area {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.service-content {
+  height: 400px;
+  display: flex;
+}
+
+.service-content-first {
+  text-align: center;
+  background: #A20054;
+  width: 50%;
+}
+
+.service-content-first-box {
+  padding: 40px;
+}
+
+.service-content-img {
+  width: 130px;
+}
+
+.service-content-title {
+  margin: 15px 0;
+  color: #fff;
+  font-weight: 800;
+}
+
+.service-content-text {
+  text-align: start;
+  color: #fff;
+  line-height: 1.5;
+}
+
+.service-content-rightbox {
+  width: 50%;
+}
+
+.service-content-second {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  background: #A24478;
+  padding: 0 20px;
+}
+
+.service-content-second-box {
+  margin-left: 10px;
+}
+
+.service-content-third {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  background: #A2738C;
+  padding: 0 20px;
+}
+
+.blog-area-background {
+  background: #F2F2F2;
+}
+
+.blog-area {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.blog-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-card {
+  width: 30%;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.blog-card-img {
+  width: 100%;
+}
+
+.blog-card-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: #A20054;
+  padding: 10px 20px;
+}
+
+.blog-card-content {
+  padding: 20px 15px;
+  background: #fff;
+}
+
+.blog-card-content-text {
+  color: #555555;
+  font-weight: 800;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.blog-card-content-tagbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-card-content-date {
+  color: #555555;
+  font-size: 10pt;
+}
+
+.blog-card-content-tag {
+  color: #555555;
+  font-size: 10pt;
+}
+
+.blog-button {
+  text-decoration: none;
+  text-align: center;
+  width: 150px;
+  padding: 20px;
+  background: #fff;
+  border: 2px solid #A20054;
+  color: #A20054;
+  display: block;
+  border-radius: 50px;
+  margin: 30px auto 0 auto;
+}
+
+.company-area {
+  width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.company-table {
+  width: 100%;
+}
+
+.company-table-header,
+.company-table-data {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: start;
+  color: #555555;
+}
+
+.company-table-header {
+  font-weight: 800;
+  background: #F2F2F2;
+  width: 30%;
+}
+
+.other-area {
+  display: flex;
+}
+
+.recruit-area {
+  position: relative;
+  width: 50%;
+}
+
+.recruit-img {
+  width: 100%;
+}
+
+.recruit-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 22pt;
+  color: #fff;
+}
+
+.interview-area {
+  position: relative;
+  width: 50%;
+}
+
+.interview-img {
+  width: 100%;
+}
+
+.interview-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 22pt;
+  color: #fff;
+}
+
+.contact-area {
+  margin: 80px auto;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-text {
+  font-size: 14pt;
+  font-weight: 800;
+  color: #555555;
+}
+
+.contact-vertical-line {
+  margin: 20px auto;
+  width: 2px;
+  height: 40px;
+  background: #A20054;
+}
+
+.contact-button {
+  text-decoration: none;
+  text-align: center;
+  width: 220px;
+  padding: 30px;
+  background: #E30073;
+  box-shadow: 0 10px 0 #70003E;
+  color: #fff;
+  position: relative;
+  display: block;
+  border-radius: 50px;
+  margin: 0 auto 0 auto;
+}
+
+.contact-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  background: url(../img/mailicon.svg)no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  transform: translate(0,-50%);
+}
+
+.footer {
+  width: 100%;
+  background: #F2F2F2;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-text {
+  color: #555555;
+  font-size: 10pt;
+}
+
