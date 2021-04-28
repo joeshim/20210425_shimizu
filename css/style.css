@@ -413,7 +413,6 @@
 
 .footer {
   width: 100%;
-<<<<<<< HEAD
   background: #F2F2F2;
   padding: 20px 0;
   text-align: center;
@@ -422,10 +421,4 @@
 .footer-text {
   color: #555555;
   font-size: 10pt;
-=======
-  height: 200px;
-  margin: 0 auto 20px 0;
-  background: navy;
->>>>>>> aeaf58c1eabc2cefc1a607e17d4e9cdfe6874053
 }
-
